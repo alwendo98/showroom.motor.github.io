@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Showroom Motor</title>
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="./assets/css/nucleo-icons.css" rel="stylesheet">
+    <link href="./assets/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Jquery UI -->
+    <link type="text/css" href="./assets/css/jquery-ui.css" rel="stylesheet">
+
+    <!-- Argon CSS -->
+    <link type="text/css" href="./assets/css/argon-design-system.min.css" rel="stylesheet">
+
+    <!-- Main CSS-->
+    <link type="text/css" href="./assets/css/style.css" rel="stylesheet">
+
+    <!-- Optional Plugins-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+
+<body>
+    <header class="header clearfix">
+        <div class="top-bar d-none d-sm-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 text-left">
+                        <ul class="top-links contact-info">
+                            <li><i class="fa fa-envelope-o"></i> <a href="customercare@astra-honda.com">Honda@co.id</a></li>
+                            <li><i class="fa fa-whatsapp"></i> +102134590212</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 text-right">
+                        <ul class="top-links account-links">
+                            
+                            <li><i class="fa fa-power-off"></i> <a href="user.html">Registrasi</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-main border-top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-12 col-sm-6">
+                        <a class="navbar-brand mr-lg-5" href="./index.html">
+                            <i class="fa fa-shopping-bag fa-3x"></i> <span class="logo">Honda</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-7 col-12 col-sm-6">
+                        <form action="#" class="search">
+                            <div class="input-group w-100">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                 
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-main navbar-expand-lg navbar-light border-top border-bottom">
+            <div class="container">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav"
+                    aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="main_nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#products">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product-detail.html">Produk Motor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="transaksi.html">Transaksi</a>
+                        </li>
+                       
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="true">Pages</a>
+                            <div class="dropdown-menu">
+                                
+                                <a class="dropdown-item" href="#promo-terbaik">Promo</a>
+                                <a class="dropdown-item" href="https://www.astra-honda.com/helpcenter">Contact Us</a>
+                                <a class="dropdown-item" href="hubungikami.html">HelpCenter</a>
+                                <a class="dropdown-item" href="about.html">About</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div> <!-- collapse .// -->
+            </div> <!-- container .// -->
+        </nav>
+    </header>
+    <!------------------------------------------
+    SLIDER
+    ------------------------------------------->
+    <section class="slider-section pt-4 pb-4">
+        <div class="container">
+            <div class="slider-inner">
+                <div class="row">
+                    <div class="col-md-3">
+                        <nav class="nav-category">
+                            <h2>Tipe Motor</h2>
+                            <ul class="menu-category">
+                                <li><a href="#TipeMotor">Sports Motor</a></li>
+                                <li><a href="#TipeMotor">Matic</a></li>
+                                <li><a href="#TipeMotor">Cub</a></li>
+                                <li><a href="#TipeMotor">BigBike</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-9">
+                        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner shadow-sm rounded">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img/style.webp" alt="First slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                       
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/new.webp" alt="Second slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                       
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/cbr.webp" alt="Third slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                       
+                                    </div>
+                                </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/cb1.webp" alt="Four slide">
+                                        <div class="carousel-caption d-none d-md-block">
+                                           
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Slider -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="media">
+                        <div class="iconbox iconmedium rounded-circle text-info mr-4">
+                            <i class="fa fa-truck"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5>Produk Dijual</h5>
+                            <p class="text-muted">
+                                Terbaik
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="media">
+                        <div class="iconbox iconmedium rounded-circle text-purple mr-4">
+                            <i class="fa fa-credit-card-alt"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5>Berkualitas</h5>
+                            <p class="text-muted">
+                                Memuaskan Konsumen
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="media">
+                        <div class="iconbox iconmedium rounded-circle text-warning mr-4">
+                            <i class="fa fa-refresh"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5>Proses</h5>
+                            <p class="text-muted">
+                                Pembayaran Tidak Ribet
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services -->
+    <section id="promo-terbaik"></section>
+    <section class="products-grids trending pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2>Promo</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-xl-3 col-lg-4 col-md-4 col-12">
+                    <div class="single-product">
+                        <div class="product-img">
+                            <a href="product-detail.html">
+                                <img src="https://www.suarapemredkalbar.com/public/media/post/2020/09/06/728x528/1599383620_promo_khusus_september_honda_skuy_untuk_sepeda_motor_vario125.jpg" class="img-fluid" />
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h3><a href="product-detail.html">Special &amp; Promo</a></h3>
+                            <div class="product-price">
+                                <span>Awal Tahun</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-12">
+                    <div class="single-product">
+                        <div class="product-img">
+                            <a href="product-detail.html">
+                                <img src="https://www.suarapemredkalbar.com/public/media/post/2019/06/11/728x528/1560247115_beli_honda_di_bulan_juni_bisa_hemat_hingga_1_4_juta_lewat_promo_khusus_pns_hingga_konsumen_setia_bisa_tukar_motor_lama.jpeg" class="img-fluid" />
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h3><a href="product-detail.html">Beli &amp; Hemat</a></h3>
+                            <div class="product-price">
+                                <span>Hingga 14 Jt</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-12">
+                    <div class="single-product">
+                        <div class="product-img">
+                            <a href="product-detail.html">
+                                <img src="https://bengkuluekspress.rakyatbengkulu.com/wp-content/uploads/2017/01/Honda_promo-awal-tahun.jpg" class="img-fluid" />
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h3><a href="product-detail.html">Untung &amp; Beli Produk</a></h3>
+                            <div class="product-price">
+                                <span>Terbaru</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-12">
+                    <div class="single-product">
+                        <div class="product-img">
+                            <a href="product-detail.html">
+                                <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,pr-true/uploads/article/thumbnail/banner-page-promo-31-30112021-090833.jpg" class="img-fluid" />
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h3><a href="product-detail.html">Penawaran &amp; Terbaik</a></h3>
+                            <div class="product-price">
+                                <span>Dijual</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </div>
+    </section>
+    <section id="TipeMotor"></section>
+    <section class="products-grids trending pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2>Tipe Motor</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-xl-3 col-lg-4 col-md-4 col-12">
+                    <div class="single-product">
+                        <div class="product-img">
+                            <a href="">
+                                <img src="https://www.otomaniac.com/wp-content/uploads/2016/01/Daftar-Motor-Matic-Honda-Terbaru.jpg" class="img-fluid" />
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h3><a href="">Vario&amp; 150e</a></h3>
+                            <div class="product-price">
+                                <span>The Perfection</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-12">
+                    <div class="single-product">
+                        <div class="product-img">
+                            <a href="">
+                                <img src="https://www.otomaniac.com/wp-content/uploads/2018/01/Daftar-Harga-Motor-Sport-Honda-Terbaru.jpg" class="img-fluid" />
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h3><a href="">Honda &amp; CBR250</a></h3>
+                            <div class="product-price">
+                                <span>RR</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-12">
+                    <div class="single-product">
+                        <div class="product-img">
+                            <a href="">
+                                <img src="https://cdn-2.tstatic.net/tribunnews/foto/bank/images/harga-honda-super-cub-c125-terbaru-matte-axis-gray-metallic.jpg" class="img-fluid" />
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h3><a href="product-detail.html">Super &amp;Cub</a></h3>
+                            <div class="product-price">
+                                <span>C125</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-12">
+                    <div class="single-product">
+                        <div class="product-img">
+                            <a href="">
+                                <img src="https://www.wahanahonda.com/assets/upload/berita/BERITA_1649055870_bc837685c6da7b080a0c9f2521717b77.jpg" class="img-fluid" />
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h3><a href="">Honda &amp; CB650</a></h3>
+                            <div class="product-price">
+                                <span>RR</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </div>
+    </section>
+    <section class="mobile-apps pt-5 pb-3 border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Kunjungi </h3>
+                    <p>Langsung Ke Website Resmi Kami</p>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <a href="#"><img src="weblogo.png" height="60"></a>
+                   
+                </div>
+            </div> <!-- row.// -->
+        </div><!-- container // -->
+    </section>
+    <footer class="footer bg-primary">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer about">
+                            <div class="logo-footer">
+                                <i class="fa fa-shopping-bag fa-3x"></i> <span class="logo">Honda</span>
+                            </div>
+                            <p class="text">Produk Dijual Terpercaya
+                               Berkualitas dan membuat Konsumen Puas dengan sistem pelayanan kami.</p>
+                            <p class="call">Call Center<span><a href="tel:123456789">+08119500989789</a></span></p>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer links">
+                            <h4>Information</h4>
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="#">Faq</a></li>
+                                <li><a href="https://www.astra-honda.com/helpcenter">Contact Us</a></li>
+                                <li><a href="product-detail.html">Produk</a></li>
+                            </ul>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer links">
+                            <h4>Services</h4>
+                            <ul>
+                                <li><a href="#">AHM Oli</a></li>
+                                <li><a href="#">Accesories</a></li>
+                                <li><a href="#">Honda Tire</a></li>
+                                <li><a href="#">Honda Genuine Parts</a></li>
+                                
+                            </ul>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer social">
+                            <h4>Pt Honda Showroom</h4>
+                            <!-- Single Widget -->
+                            <div class="contact">
+                                <ul>
+                                    <li>Jl. Laksda Yos Sudarso - Sunter 1 </li>
+                                    <li>Jakarta 14350, Indonesia </li>
+                                    <li>honda@co.id</li>
+                                    <li>08119500989 </li>
+                                </ul>
+                            </div>
+                            <!-- End Single Widget -->
+                            <ul>
+                                <li><a href="#"><i class="ti-facebook"></i></a></li>
+                                <li><a href="#"><i class="ti-twitter"></i></a></li>
+                                <li><a href="#"><i class="ti-flickr"></i></a></li>
+                                <li><a href="#"><i class="ti-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="copyright-inner border-top">
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <div class="left">
+                                <p>Copyright © 2022 <a href="http://indokoding.net" target="_blank">Astra Honda</a> -
+                                   Terpercaya</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Core -->
+    <script src="./assets/js/core/jquery.min.js"></script>
+    <script src="./assets/js/core/popper.min.js"></script>
+    <script src="./assets/js/core/bootstrap.min.js"></script>
+    <script src="./assets/js/core/jquery-ui.min.js"></script>
+
+    <!-- Optional plugins -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <!-- Argon JS -->
+    <script src="./assets/js/argon-design-system.js"></script>
+
+    <!-- Main JS-->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
